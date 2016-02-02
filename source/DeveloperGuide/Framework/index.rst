@@ -1,3 +1,6 @@
+.. contents:: Table of contents
+   :depth: 3
+
 ================================
 Framework Overview
 ================================
