@@ -84,6 +84,19 @@ This reference is completed in the InstalledComponent class definition with the 
     installationComponent = relationship( 'Component',
                                           backref = 'installationList' )
 
+Although we are using MySQL here, it is possible to switch to other SQLAlchemy-supported databases by changing the URI of the database in the initialization methods to point to the one being used instead.
+
+For instance, from::
+
+   self.engine = create_engine( 'mysql://%s:%s@%s:%s/%s' %
+                    ( self.user, self.password, self.host, self.port, self.db ),
+                    pool_recycle = 3600, echo_pool = True
+                    )
+
+to::
+
+   engine = create_engine( 'sqlite:////route/to/my/db.db' , pool_recycle = 3600, echo_pool = True, echo = True )
+
 The ComponentMonitoring service acts as an interface between the client side and the functionalities provided by InstalledComponentsDB ( accessing and modifying the database ). Clients to this service are created to modify the database or access its data.
 The MonitoringUtilities module provides the functionality needed to store or delete monitoring entries from the database::
 
