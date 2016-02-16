@@ -3,13 +3,13 @@
 Configuring *Eclipse*
 =======================
 
-The suggested way to develop in DIRAC is using `Eclipse <http://www.eclipse.org/>`_. We know `Emacs <www.gnu.org/s/emacs/>`_ is a great tool, and someone can't just leave without it. And that also `vim <http://www.vim.org/>`_ is great. Anyway, we support  *Eclipse*. It is not mandatory to use it, but it is highly recommended. And this guide will give you some hints on it.
+A possible way to develop in DIRAC is using `Eclipse <http://www.eclipse.org/>`_. We know `Emacs <www.gnu.org/s/emacs/>`_ is a great tool, and someone can't just leave without it. And that also `vim <http://www.vim.org/>`_ is great. Other excellent options include `pycharm <https://www.jetbrains.com/pycharm/>`_, `sublime <https://www.sublimetext.com/>`_, and `atom <https://atom.io/>`_.
+Anyway, this is a quick guide for *Eclipse* in case you want to use it, but it is not mandatory to use it.
 
 As it has been true for the previous paragraph, this guide will NOT explain the basic usage of eclipse and its plugins: go on the net and search. In a nutshell, based on experience we can say that:
 
-- Eclipse is a great tool. Use it! It will simplify enormously your life.
+- Eclipse is a good tool. It will simplify your life.
 - There are many Eclipse versions out there: just take the *classic* one, and take the latest package.
-- `Eclipse 4 <http://www.eclipse.org/e4/>`_ is mature since long time. Some linux distributions still ships the version 3. The suggestion is to get the standalone version from the web.
 - If you have a very old machine, Eclipse will eat your memory. If you are on Linux, use the Oracle JVM.
 - You'll have to update eclipse and its plugins manually (e.g. "Help" -> "Check for updates").
 
